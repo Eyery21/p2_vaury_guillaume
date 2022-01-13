@@ -1,0 +1,552 @@
+<!DOCTYPE html >
+<html lang="fr">
+    <head>
+        <title>Booki</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style/activités.css" />
+
+        <link rel="stylesheet" href="style/Hébergement.css" />
+        <link rel="stylesheet" href="style/populaires.css" />
+        <link rel="stylesheet" href="style/menu1.css" />
+        <link rel="stylesheet" href="style/footer.css" />
+        <link rel="stylesheet" href="style/section-filtre.css" />
+        <link rel="stylesheet" href="style/header.css" />
+        <link rel="stylesheet" href="style/style.css" />
+
+        <link rel="stylesheet" href="style/style-tablet.css" />
+        <link rel="stylesheet" href="style/style-phone.css" />
+
+
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+            integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+            crossorigin="anonymous"
+        />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <style>
+       
+            body {
+                font-family: "Raleway", sans-serif;
+            }
+
+            /* For mobile phones: */
+        </style>
+    </head>
+
+    <body>
+        <div id="bloc_page">
+           <div id="header">
+                    <div class="en-tete">
+                        <div id="logo">
+                            <div class="logo">
+                                <img src="images/booki.png" alt="logo" >
+                            </div>
+                        </div>
+                        <div class="ancrepage menu-nav" >
+                            <ul>
+                                <li><a href="#menu-hebergement">Hébergements</a></li>
+                                <li><a href="#menu2">Activités</a></li>
+                            </ul>
+                            
+                          </div>
+                    </div>
+                    <div class="titre-page-info">
+                        <h1>
+                            Trouvez votre hébergement pour des vacances de rêve
+                        </h1>
+                        <h4>En plein centre ville ou en pleine nature</h4>
+                    </div>
+            </div>
+                
+  
+
+            <section>
+                <form method="post" action="traitement.php" >                  
+                    <div class="search">
+                        <div class="searchBar" >
+                            <div class="containerMarker">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <input type="search" class="searchInput" placeholder="Marseille, France">
+                            <button class="searchbutton">
+                                <span>Rechercher</span>
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+
+                <div id="filtre">
+                    <h2>Filtres</h2>
+                    <div class="filter">
+                        <div class="icons">
+                            <i class="fas fa-money-bill-wave icon" aria-hidden="true">
+                                
+                            </i>
+                        </div>    
+                        <span>
+                            Economique
+                        </span>
+                        
+
+                    </div>
+                    <div class="filter">
+                        <div class="icons">
+                            <i class="fas fa-child icon" aria-hidden="true"></i>
+                        </div>
+                        <span>
+                            Familial
+                        </span>                        
+                    </div>
+                    <div class="filter">
+                        <div class="icons">
+                            <i class="fas fa-heart icon" aria-hidden="true"></i>
+                            </div>
+                            <span>
+                                Romantique
+                            </span>
+                        
+                    </div>
+                    <div class="filter">
+                        <div class="icons">
+                            <i class="fas fa-dog icon" aria-hidden="true"></i>
+                            </div>
+                            <span>
+                                Animaux autorisés
+                            </span>
+                        
+                    </div>
+                </div>
+
+                <div class="info">
+                    <p><i class="fa fa-info" aria-hidden="true"></i></p>
+                    <p>
+                         Plus de 500 logements sont disponibles dans cette ville
+                    </p>
+                    
+                </div>
+            </section>
+
+            <section>
+                <div class="menu-h" id="menu-hebergement">
+                    <div class="Hébergement" >
+                        <div class="hébergement-titre">
+                            <h2>Hébergements à Marseille</h2>
+                        </div>
+                        <div class="card-heb-haut">
+                            <div class="card-1">
+                                <a
+                                    class="card-heb"
+                                    href="https://www.damienflandrin.fr/blog/post/"
+                                >
+                                    <img
+                                        class="img-ratio"
+                                        src="images/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                                        alt="Orange"
+                                    />
+                                    <div class="legend">
+                                        <div class="nuit-heb">
+                                            <h3 class="nom-hb">
+                                                Aubèrge de la cannebière
+                                            </h3>
+                                            <p class="nuit">
+                                                Nuitt à partir de
+                                                <span class="prix">25€</span>
+                                            </p>
+                                            <div class="étoiles">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i
+                                                    class="
+                                                        gray-star
+                                                        fas
+                                                        fa-star
+                                                    "
+                                                ></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-1">
+                                <a
+                                    class="card-heb"
+                                    href="https://www.damienflandrin.fr/blog/post/"
+                                >
+                                    <img
+                                        class="img-ratio"
+                                        src="images/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                                        alt="Orange"
+                                    />
+                                    <div class="legend">
+                                        <div class="nuit-heb">
+                                            <h3 class="nom-hb">
+                                                Hôtel du port
+                                            </h3>
+                                            <p class="nuit">
+                                                Nuitt à partir de
+                                                <span class="prix">52€</span>
+                                            </p>
+                                            <div class="étoiles">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-1">
+                                <a
+                                    class="card-heb"
+                                    href="https://www.damienflandrin.fr/blog/post/"
+                                >
+                                    <img
+                                        class="img-ratio"
+                                        src="images/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                        alt="Orange"
+                                    />
+                                    <div class="legend">
+                                        <div class="nuit-heb">
+                                            <h3 class="nom-hb">
+                                                Hôtel les mouettes
+                                            </h3>
+                                            <p class="nuit">
+                                                Nuitt à partir de
+                                                <span class="prix">76€</span>
+                                            </p>
+                                            <div class="étoiles">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+
+                                                <i class="gray-star fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-heb-bas">
+                            <div class="card-1">
+                                <a
+                                    class="card-heb"
+                                    href="https://www.damienflandrin.fr/blog/post/"
+                                >
+                                    <img
+                                        class="img-ratio"
+                                        src="images/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                                        alt="Orange"
+                                    />
+                                    <div class="legend">
+                                        <div class="nuit-heb">
+                                            <h3 class="nom-hb">
+                                                Hôtel de la mer
+                                            </h3>
+                                            <p class="nuit">
+                                                Nuitt à partir de
+                                                <span class="prix">46€</span>
+                                            </p>
+                                            <div class="étoiles">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i
+                                                    class="
+                                                        gray-star
+                                                        fas
+                                                        fa-star
+                                                    "
+                                                ></i>
+                                                <i
+                                                    class="
+                                                        gray-star
+                                                        fas
+                                                        fa-star
+                                                    "
+                                                ></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-1">
+                                <a
+                                    class="card-heb"
+                                    href="https://www.damienflandrin.fr/blog/post/"
+                                >
+                                    <img
+                                        class="img-ratio"
+                                        src="images/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                                        alt="Orange"
+                                    />
+                                    <div class="legend">
+                                        <div class="nuit-heb">
+                                            <h3 class="nom-hb">
+                                                Aubèrge le panier
+                                            </h3>
+                                            <p class="nuit">
+                                                Nuitt à partir de
+                                                <span class="prix">23€</span>
+                                            </p>
+                                            <div class="étoiles">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i
+                                                    class="
+                                                        gray-star
+                                                        fas
+                                                        fa-star
+                                                    "
+                                                ></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="card-1">
+                                <a
+                                    class="card-heb"
+                                    href="https://www.damienflandrin.fr/blog/post/"
+                                >
+                                    <img
+                                        class="img-ratio"
+                                        src="images/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+                                        alt="Orange"
+                                    />
+                                    <div class="legend">
+                                        <div class="nuit-heb">
+                                            <h3 class="nom-hb">
+                                                Hôtel chez Amina
+                                            </h3>
+                                            <p class="nuit-heb">
+                                                Nuitt à partir de
+                                                <span class="prix">96€</span>
+                                            </p>
+                                            <div class="étoiles">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hébergement-titre2">
+                            <h2>Afficher plus</h2>
+                        </div>
+                    </div>
+                    <div class="populaire">
+                        <div class="titre-p">
+                            <h2>Les plus populaires</h2>
+                            <div class="logo-titre">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="card-3-1">
+                            <a  class="card-pop" href="https://www.damienflandrin.fr/blog/post/"
+                            >
+                                <img
+                                    class="img-ratiopop"
+                                    src="images/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                    alt="Orange"
+                                />
+                                <div class="titre-pp">
+                                    <div class="titre-pop">
+                                        <h3>Hôtel Le soleil du matin</h3>
+                                        <p class="nuit">
+                                            Nuit à partir de
+                                            <span class="prix">128€</span>
+                                        </p>
+                                    </div>
+                                    <div class="étoiles">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </a>
+                            <a
+                                class="card-pop"
+                                href="https://www.damienflandrin.fr/blog/post/"
+                            >
+                                <img
+                                    class="img-ratiopop"
+                                    src="images/aw-creative-VGs8z60yT2c-unsplash.jpg"
+                                    alt="Orange"
+                                />
+                                <div class="titre-pp">
+                                    <div class="titre-pop">
+                                        <h3>
+                                            Au coeurr de l'eau Chambre d'hôte
+                                        </h3>
+                                        <p class="nuit">
+                                            nuit à partir de
+                                            <span class="prix">71€</span>
+                                        </p>
+                                    </div>
+                                    <div class="étoiles">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="gray-star fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </a>
+                            <a
+                                class="card-pop"
+                                href="https://www.damienflandrin.fr/blog/post/"
+                            >
+                                <img
+                                    class="img-ratiopop"
+                                    src="images/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                    alt="Orange"
+                                />
+                                <div class="titre-pp">
+                                    <div class="titre-pop">
+                                        <h3>Hôtel tout bleu tout blanc</h3>
+                                        <p class="nuit">
+                                            nuit à partir de
+                                            <span class="prix">68€</span>
+                                        </p>
+                                    </div>
+                                    <div class="étoiles">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="gray-star fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section 
+            id="menu2">
+                <h2>Activités à Marseille</h2>
+                <div class="activ">
+                  <div class="column solo">
+                    <article id="card1">
+                      <a href="#">
+                        <img src="images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="photo">
+                        <h3>Vieux Port</h3>
+                      </a>
+                    </article>
+                  </div>
+                  <div class="column duo">
+                    <article id="card2">
+                      <a href="#">
+                        <img src="images/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="photo">
+                        <h3>Fort de Pomègues</h3>
+                      </a>
+                    </article> 
+                    <article id="card3">
+                        <a href="#">
+                            <img src="images/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="photo">
+                            <h3>Île du Frioul</h3>
+                        </a>    
+                    </article>
+                    </div>
+                  <div class="column solo">
+                    <article id="card4">
+                      <a href="#">
+                        <img src="images/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="photo">
+                        <h3>Parc National des calanques</h3>
+                      </a>
+                    </article>
+        
+                  </div>
+                  <div class="column duo">
+                    <article id="card5">
+                        <a href="#">
+                            <img src="images/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="photo">
+                            <h3>Parc National des calanques</h3>
+                        </a>
+                    </article>
+                    <article id="card6">
+                        <a href="#">
+                            <img src="images/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="photo">
+                            <h3>Parc Longchamp</h3>
+                         </a>    
+                    </article>
+        
+                  </div>
+                </div>
+            
+              
+            </section>
+              
+                    
+
+            <footer>
+                <div id="liste-footer">
+                    <div class="propos">
+                        <ul>
+                            <li><div class="titre-footer">A propos</div></li>
+                            <li>
+                                <a class="lien" href="#"
+                                    >Fonctionnement du site</a
+                                >
+                            </li>
+                            <li>
+                                <a class="lien" href="#"
+                                    >Conditions générales de ventes</a
+                                >
+                            </li>
+                            <li>
+                                <a class="lien" href="#"
+                                    >Donnés et confidentialité</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="heber">
+                        <ul>
+                            <li>
+                                <div class="titre-footer">Nos hébergements</div>
+                            </li>
+                            <li><a class="lien" href="#">Charte qualité</a></li>
+                            <li>
+                                <a class="lien" href="#"
+                                    >Soumettre votre hôtel</a
+                                >
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="assistance">
+                        <ul>
+                            <li><div class="titre-footer">Assistance</div></li>
+                            <li><a class="lien" href="#">Centre d'aide</a></li>
+                            <li><a class="lien" href="#">Nous contacter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

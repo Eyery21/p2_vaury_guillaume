@@ -1,0 +1,324 @@
+@media(max-width: 568px) 
+{
+    body
+    {
+        height: auto;
+        background-color: violet;
+        margin: 0px;
+        padding: 0;
+
+    }
+    #bloc_page
+    {
+        width: 100%;
+        margin: 0;
+    }
+   
+    section{width: 100%;       
+    }
+
+    /* header */
+    #header{width: 100%  }
+    
+    .en-tete
+    {
+
+        width: 100%;
+        justify-content: center;
+    }
+    .en-tete
+    {
+
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .titre-page
+    {
+
+        text-align: center;
+    }   
+    .menu-nav ul li {
+
+        width: 50%;
+        justify-content: center;
+    }
+    .menu-nav ul li a:hover
+    {
+    
+
+        color: #0065FC;
+        border-top: none;
+        border-bottom: 4px solid #0065fc;
+    }
+    /* fin header */
+
+    /* recherche */
+    
+  
+    button
+    {
+
+        border: 1px solid black;
+        width: 50px;
+        border-radius: 10px 10px 10px 10px;
+
+    }
+    .searchbutton span{display: none;}
+    .search button {
+
+        border-radius: 15px;
+        width: 40px;
+    }
+  
+    button .fas.fa-search {
+        display: block;
+        color: white;
+        margin-top: 15px;
+    }
+    
+    
+  
+    /* fin recherche */
+
+    /*filtre*/
+   
+    #filtre{
+        width: 100%;
+
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .info
+    {
+
+        font-size: 18px;
+    }
+    .info p9
+    {
+        font-size: 14px;
+        padding:8px;
+        color: #0065FC;
+    }
+    /*fin filtre*/
+
+
+    /*menu-h partie hebergement*/
+
+
+    .menu-h
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .Hébergement
+    {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;       
+        padding-right: 0;
+        padding-left: 0;       
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+    .hébergement-titre
+    {              
+        width: 100%;
+        margin: 0;
+    }
+    .hébergement-titre2
+    {
+        width: 100%;
+        margin: 0;
+        font-size: 12px;
+    }
+   
+
+    
+    
+    .card-heb-haut
+    {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .card-heb
+    {
+
+
+
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+    .img-ratio
+    {
+
+
+        width: 100%;
+        padding: 0;
+    }
+    .card-heb-bas
+    {
+
+
+
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      
+    }
+    /* fin partie hebergement*/
+
+
+    /*partie populaire */
+    .populaire
+    {
+
+
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+      
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        height: 700px;
+    }
+    .card-3-1
+    {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+        height: auto;
+    }
+    .card-pop
+    {
+
+
+
+
+        margin: 0;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+        /* fin partie populaire */
+
+
+    /* menu activité */
+
+    #menu2
+    {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+     }
+
+    #menu2 h2{   
+
+
+       justify-content: center;
+    }
+    .activ
+    {
+
+
+    display: block;
+    height: auto;
+    width: 100%;
+    }
+    #card2 
+    {
+
+      height: 200px;
+    }
+    .column.duo
+    {
+  
+     width: 100%;
+    flex-direction: column;
+    }
+    .column.duo
+    {
+        height: auto;
+    }
+    .column.solo
+    {
+  
+     width: 100%;
+    flex-direction: column;
+    }
+    .column.solo
+    {
+        height: auto;
+    }
+
+    .activ img
+    {
+    width: 100%;
+    height: 60%;
+    }
+    .activ h3
+    {
+    height: 20px;
+    }
+
+    article {
+        margin-top: 20px;
+    }
+        /* fin menu activité */
+
+
+    #liste-footer
+    {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    }
+    .propos, .heber, .assistance
+    {
+        background-color: azure;
+        padding-right: 0;
+      
+    }
+  
+ 
+  
+
+}

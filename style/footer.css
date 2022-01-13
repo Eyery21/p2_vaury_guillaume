@@ -1,0 +1,52 @@
+footer
+{
+   width: 100%; 
+   padding-right: 200px;
+  }
+#liste-footer
+{
+    display: flex;
+    padding-bottom: 50px;
+
+    
+}
+.propos, .heber, .assistance{
+  background-color: azure;
+  padding-right: 300px;
+
+}
+.lien:hover{text-decoration: none;}
+.titre-footer
+{
+    font-weight: bold;
+    color: black;
+}
+ul
+{
+ list-style-type: none;
+ 
+}
+li
+{
+    padding: 10px;
+}
+
+@media only screen and (max-width: 768px)
+     {
+      /* For mobile phones: */
+     /* [class*="col-"] {
+       width: 100%;
+       }*/
+       .liste-footer
+       {
+           width: auto;
+         display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 30px;
+      }
+      .propos .heber .assistance
+      { 
+        text-align: center;}
+         
+     }

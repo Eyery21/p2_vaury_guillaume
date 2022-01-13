@@ -1,0 +1,2 @@
+section{ display: flex; flex-direction: column;}
+.menu-h{display: flex; flex-direction: row; width:100%}
