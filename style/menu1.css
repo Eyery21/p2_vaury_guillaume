@@ -1,2 +1,10 @@
 section{ display: flex; flex-direction: column;}
-.menu-h{display: flex; flex-direction: row; width:100%}
+.menu-h
+{
+    display: flex; 
+    flex-direction: row; width:100%;
+    align-items: flex-start;
+
+
+
+}

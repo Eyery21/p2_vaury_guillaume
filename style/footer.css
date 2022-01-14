@@ -1,12 +1,10 @@
 footer
 {
    width: 100%; 
-   padding-right: 200px;
   }
 #liste-footer
 {
     display: flex;
-    padding-bottom: 50px;
 
     
 }

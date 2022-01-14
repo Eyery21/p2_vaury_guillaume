@@ -4,12 +4,11 @@
 .en-tete
 {
 
+    background-color: antiquewhite;
     display: flex; 
-    padding-top: 40px;
     width:100%;
     justify-content: space-between ;
 }
-.ancrepage {margin-top: 10px;}
 
 .menu-nav ul {
     display: flex;
@@ -30,17 +29,13 @@
     text-decoration: none;
     
 }
-a{color: #AAA; padding-top: 40px;
- }
-a:hover
+#header a{
+    border-top: 10px  solid transparent; }
+#header a:hover
 {
 
     color: #0065FC;
     border-top: 4px solid #0065fc;
-    border-top-width: 4px;    
-    
-        
-    
 
 }
 

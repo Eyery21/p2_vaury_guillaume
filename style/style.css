@@ -2,14 +2,12 @@ body
 {
     width: 100%;
     padding: 0;
-    background-color: aqua;
 }
 #bloc_page
 {
     width: 100%;
     margin: 0;
 
-    background-color: rebeccapurple;
 }
 #header, section{width: 90%;margin-left: auto; margin-right: auto;}
 

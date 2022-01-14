@@ -1,17 +1,13 @@
 .populaire
 {
+
     background-color:#F2F2F2;
     border-radius: 15px 15px 15px 15px;
-    margin-left: 100px;
-    padding: 40px;
-    padding-top: 0;
-    padding-right: 130px;
+   
     width: 30%;
-    height: 730px;
 }
 .titre-p
 {
-    margin-bottom: 30px;
     margin-left: 30px;
     display: flex;
     flex-direction: row;
@@ -24,9 +20,8 @@
 }
 .card-3-1
 {
-    padding-left: 10px;
-    height: 60px;
-    width: 100%;
+    width: auto;
+    padding: 5%;
 
 
 }
@@ -34,22 +29,16 @@
 
 .card-pop
 {
-    
-
 
     box-shadow: 0 0 1px 0px rgba(0, 0, 0, 0.2),0 4px 20px 0 rgba(0, 0, 0, 0.19); 
-    border-radius: 10px 10px 10px 10px;height: 120px;width: 600px; 
-    margin: 20px;
+    border-radius: 10px 10px 10px 10px;height: 120px;; 
     background-color: white;
-
+    margin: 20px;
+    margin-bottom: 10%;
     display: flex;
     flex-direction: row;
-
-    max-width: 100%;
-    width: 500px;
-    height: 170px;
-    
-    
+    width: 80%;
+    height: 20%;  
 }
 
 
@@ -57,23 +46,23 @@
 {
     border-radius: 10px 0px 0px 10px ;
     object-fit: cover;
-    padding: 10px;
     height: 150px;
-    width: 180px;
+    width: 40%;
     
 }
 .titre-pp
 {
-    width: 150px;
-    font-size: 12px;
-    line-height: 20px;
+    width: 50%;
+    height: 100%;
+     margin-left: 6px;
+    margin-bottom: 30px;
 
 }
 .titre-pop
 {
-    margin-left: 6px;
-    margin-bottom: 30px;
+  
     color: black;
+    font-size: 80%;
 }
 .nuit
 {color: gray;}
